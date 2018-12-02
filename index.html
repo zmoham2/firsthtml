@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Hello Zoheb</h1>
+<p>This is my HTML page on 12/2/2018</p>
+<h3>This is header 3</h3>
+<h6>This is header 6</h6>
+
+
+<ul>
+<li id='nId'>Coffee</li>
+<li class='myClass'>Tea</li>
+<li>Jungle Juice</li>
+<li>Beer</li>
+</ul>
+
+<ol>
+<li id='myId'>Coffee</li>
+<li class='myClass'>Tea</li>
+<li>Jungle Juice</li>
+<li>Beer</li>
+</ol>
+
+<a href='https://www.espn.com'>The link for ESPN</a>
+<br><br>
+<img width='300px' height='500px' src='https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png'>
+
+<br><br>
+<button onclick='myFunction()'>Click on the button</button>
+<button onclick='changeColor()'>Change the color</button>
+
+<script>
+
+    var myFunction = function()
+    {
+        alert("You have activated my trap card!")
+    }
+
+    var changeColor = function()
+    {
+        document.getElementById('myId').style.color='white'
+    }
+
+</script>
+
+<style>
+
+    h1
+    {
+        color:red;
+        font-size:30px;
+        border:2px solid aqua;
+        padding:20px;
+        margin:50px;
+        text-align: center;
+    }
+
+    p
+    {
+        color:blue;
+    }
+
+    ul
+    {
+        background-color:green;
+    }
+
+    ol
+    {
+        background-color:#ff9900;
+    }
+
+    #myId
+    {
+        background-color:#ff8533;
+    }
+
+    #nId
+    {
+        background-color:#4dff4d;
+    }
+
+    .myClass
+    {
+        background-color:red;
+    }
+
+    button
+    {
+        background-color:blue;
+        color:orange;
+    }
+
+</style>
+</body>
+</html>
